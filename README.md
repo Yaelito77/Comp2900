@@ -1,3 +1,3 @@
 # Comp2900
 Curso de __Estructura de Datos__ \
-___Autor: Yael Maldonado Diaz___
+_Autor: Yael Maldonado Diaz_
