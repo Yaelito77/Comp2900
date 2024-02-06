@@ -1,2 +1,4 @@
 print("Autor: Yael Maldonado Diaz")
-print("Esto es un mensaje de prueba!!")
+mensaje = "Esto es un mensaje de prueba!!"
+
+print(mensaje)
