@@ -1,2 +1,3 @@
-print("Hola Mundoo!!")
-print("Noooooooooooooopee")
+print("Haciendo una prueba.")
+
+print("Autor: Yael Maldonado Diaz")
