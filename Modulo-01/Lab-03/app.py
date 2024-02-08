@@ -1,5 +1,5 @@
 hourRate = float(input("Horas Trabajadas: "))
-payRate = float(input("Pago por hora: "))
+payRate = float(input("Pago por hora: $"))
 
 overtimeHours = 0
 
@@ -10,4 +10,4 @@ if (hourRate > 40):
 else:
     totalPay = hourRate * payRate
 
-print(f"El sueldo a pagar es {totalPay}")
+print(f"El sueldo a pagar es ${totalPay}")
