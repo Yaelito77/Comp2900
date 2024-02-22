@@ -5,7 +5,8 @@ miFuncion()
 
 print("")
 
-def saludo(mensaje):
-    print(f"Hola, {mensaje}!")
 
-saludo ("Mundo")
+def saludo(mensaje):
+    print(f"Hace tiempo, {mensaje}!")
+
+saludo ("No se de ti")
