@@ -15,10 +15,15 @@ saludo ("No se de ti")
 #-----------------------------------------------------------------------
 
 def pedirNombre():
+    global nombre
     nombre = input("diga su nombre: ")
+    # return nombre
     
 def pedirGpa():
+    global gpa
     gpa = float(input("Diga su GPA: "))
+
+#nombre = ""
 
 print("Bienvenido")
 pedirNombre()
