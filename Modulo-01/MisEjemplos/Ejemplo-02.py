@@ -5,12 +5,14 @@ miFuncion()
 
 print("")
 
+#-----------------------------------------------------------------------
 
 def saludo(mensaje):
     print(f"Hace tiempo, {mensaje}!")
 
 saludo ("No se de ti")
 
+#-----------------------------------------------------------------------
 
 def pedirNombre():
     nombre = input("diga su nombre: ")
