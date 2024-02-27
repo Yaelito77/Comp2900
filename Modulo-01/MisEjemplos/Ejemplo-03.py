@@ -8,12 +8,19 @@ print("")
 
 #----------------------------------------------------------------------------
 
-def otrosuma(a, b):
+def otrosuma(a=0, b=0):
     return (a + b)
 
-resultado = suma(10, 5)
-
+resultado = otrosuma(10, 5)
 print(resultado)
+
+resultado = otrosuma()
+print(resultado)
+
+resultado = otrosuma(11)
+print(resultado)
+
+
 print("")
 #-----------------------------------------------------------------------------
 
