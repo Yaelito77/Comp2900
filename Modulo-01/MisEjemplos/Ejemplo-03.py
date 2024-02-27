@@ -6,6 +6,15 @@ resultado = suma(5, 4) #-- Llamar a la funcion y recibir el resultado
 print(F"La suma es de: {resultado}") #-------- Imprimir el resultado 
 print("")
 
+#----------------------------------------------------------------------------
+
+def otrosuma(a, b):
+    return (a + b)
+
+resultado = suma(10, 5)
+
+print(resultado)
+print("")
 #-----------------------------------------------------------------------------
 
 def resta(a ,b):
