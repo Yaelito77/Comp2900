@@ -1,6 +1,6 @@
 def area_Triangulo(base, altura):
-    return (area_Triangulo)
+    return (base * altura / 2)
 
 resultado = area_Triangulo(15, 23)
 
-print(f"El area del triangulo es: {area_Triangulo}")
+print(f"El area del triangulo es: {resultado}")
