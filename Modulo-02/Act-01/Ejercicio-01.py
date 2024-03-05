@@ -5,6 +5,9 @@ def maximo(num1, num2):
     else:
         return num2
     
-resultado = maximo(20, 70)
+primer_numero = float(input("Entre el primer numero: "))
+segundo_numero = float(input("Entre el segundo numero: "))
+
+resultado = maximo(primer_numero, segundo_numero)
 
 print(f"El numero maximo es: {resultado}")
