@@ -1,6 +1,10 @@
-def suma(a, b):
-    return (a + b)
+def maximo(num1, num2):
+    if num1 > num2:
+        return num1
 
-resultado = suma(5, 5)
+    else:
+        return num2
+    
+resultado = maximo(20, 70)
 
-print(resultado)
+print(f"El numero maximo es: {resultado}")
