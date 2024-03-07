@@ -1,4 +1,3 @@
-# Iniciando el arreglo
 array = [6, 3, 12, 1, 7,]
 
 add = 0
