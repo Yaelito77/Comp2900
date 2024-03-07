@@ -1,8 +1,9 @@
-arreglo = [6, 3, 12, 1, 7,]
+# Iniciando el arreglo
+array = [6, 3, 12, 1, 7,]
 
-suma = 0
+add = 0
 
-for elemento in arreglo:
-    suma += elemento
+for element in array:
+    add += element
 
-print(f"La suma total de los elementos del arreglo es: {suma}")
+print(f"La suma total de los elementos del arreglo es: {add}")
