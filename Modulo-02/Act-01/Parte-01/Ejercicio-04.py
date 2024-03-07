@@ -12,10 +12,6 @@ resultado = promedio(lista)
 print(f"El resultado es: {resultado}")
 
 
-
-
-
-
 #def lista(numeros):
 #    total = sum(numeros)
 #    cantidad = len(numeros)
