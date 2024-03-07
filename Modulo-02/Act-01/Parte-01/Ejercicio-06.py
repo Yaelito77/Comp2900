@@ -1,8 +1,12 @@
+import array
+
 def invertir_cadena(cadena):
-    return(cadena[::-1])
-
-cadena = "Estamos aqui tranquilos!"
-cadena_invertida = invertir_cadena(cadena)
-
-print(f"Texto normal: {cadena}")
-print(f"Texto invertido: {cadena_invertida}")
+    array_length = len(cadena)
+    nueva_cadena = ""
+    for n in range(array_length):
+        nueva_cadena += (cadena[array_length-1 -n])
+    return nueva_cadena
+    
+mensaje = "Mensaje de prueba"
+print(mensaje)
+print(invertir_cadena(mensaje))
