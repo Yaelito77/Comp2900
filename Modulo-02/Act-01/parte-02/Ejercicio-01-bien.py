@@ -3,6 +3,7 @@ def sumar_arreglo(arreglo):
     for elemento in arreglo:
         suma += elemento
     return suma
+
 def main():
     arreglo = [1, 2, 3, 4,  5]
 
