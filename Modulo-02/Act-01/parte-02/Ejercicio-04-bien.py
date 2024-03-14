@@ -5,8 +5,9 @@ def buscar_elemento(arreglo, elemento):
             return i
     return "El elemento no se encuentra en el arreglo."
 
-# Ejemplo de uso
 numeros = [7, 12, 34, 43, 78]
+
 elemento_a_buscar = 43
 posicion = buscar_elemento(numeros, elemento_a_buscar)
+
 print(f"El valor {elemento_a_buscar} se encuentra en la posición {posicion}.")
