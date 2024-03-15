@@ -7,6 +7,6 @@ def encontrar_maximo(arreglo):
 
 arreglo = [12, 43, 17, 9, 8]
 
-maximo_elemento = encontrar_maximo(arreglo)\
+maximo_elemento = encontrar_maximo(arreglo)
 
 print(f"El maximo elemento en el arreglo es: {maximo_elemento}")
