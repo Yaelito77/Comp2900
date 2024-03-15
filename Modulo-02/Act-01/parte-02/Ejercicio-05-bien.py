@@ -1,6 +1,6 @@
 def eliminar_elemento(arreglo, elemento):
     if elemento in arreglo:
-        arreglo_modificado = arreglo.copy()  # Crear una copia del arreglo original
+        arreglo_modificado = arreglo.copy()
         arreglo_modificado.remove(elemento)
         return arreglo_modificado
     else:
