@@ -13,7 +13,7 @@ for i in range(3): # from 0 to 2
 print("")
 
 for n in aNumber: 
-    print(f"Vaor {n}")
+    print(f"Valor {n}")
 
 print("")
 
