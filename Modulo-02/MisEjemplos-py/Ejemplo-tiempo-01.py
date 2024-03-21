@@ -13,9 +13,9 @@ def factorial_recursivo(n):
         return n * factorial_recursivo(n-1)
     
 # Tiempo del enfoque iterativo
-tiempo_iteractivo = timeit.timeit('factorial_iterativo(10)', globals=globals(), number=10000)
+tiempo_iteractivo = timeit.timeit("factorial_iterativo(10)", globals=globals(), number=10000)
 # Tiempo del enfoque recursivo
-tiempo_reursivo = timeit.timeit('factorial_recursivo(10)', globals=globals(), number=10000)
+tiempo_reursivo = timeit.timeit("factorial_recursivo(10)", globals=globals(), number=10000)
 
 print(f"Tiempo Iterativo: {tiempo_iteractivo} segundos.")
 print(f"Tiempo Recursivo: {tiempo_reursivo} segundos.")
