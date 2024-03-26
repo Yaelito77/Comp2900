@@ -1,3 +1,5 @@
+import timeit
+
 def max_lista(lista):
     return max(lista)
 
@@ -10,7 +12,6 @@ def max_iterativo(lista):
             maximo = numero
     return maximo
 
-import timeit
 # Crear una lista de números del 1 al 1000
 numbers = list(range(1, 1001))
 
